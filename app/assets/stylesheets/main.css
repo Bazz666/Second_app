@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url("header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2545,7 +2545,7 @@ input, select, textarea {
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: url("images/arrow.svg") no-repeat center center;
+				background: url("../images/arrow.svg") no-repeat center center;
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
@@ -3036,7 +3036,6 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-				
 			}
 
 		/* Wrapper */
@@ -3089,7 +3088,6 @@ input, select, textarea {
 
 			#nav {
 				display: none;
-				
 			}
 
 		/* Banner */
